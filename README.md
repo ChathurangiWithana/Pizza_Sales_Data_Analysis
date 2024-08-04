@@ -92,7 +92,7 @@ Data Transformation: Pizza Size
     
     Column: pizza_Regularize
     
-    Description: Transformed the abbreviations in the "pizza_Regularize" column into descriptive names, enhancing comprehension and usability of the dataset. This modification improves clarity and facilitates easier interpretation of the pizza sizes.
+    Description: Transformed the abbreviations in the "pizza_Regularize" column into descriptive names, enhancing comprehension and usability of the dataset. This modification improves clarity and facilitates easier interpretation of        the pizza sizes.
 
       S >> Small
 
@@ -104,7 +104,15 @@ Data Transformation: Pizza Size
 
       XXL >> XX-Large
 
-## BUILDING DASHBOARD 
+## BUILDING THE DASHBOARD 
+
+The dashboard provides a comprehensive overview of pizza sales performance, featuring key performance indicators such as total revenue, orders, average order value, and pizzas sold. It also includes visualizations of busiest days and times, sales trends, best-selling and worst-selling pizzas. This holistic approach empowers stakeholders with actionable insights to optimize operations, inform product strategies, and drive sales growth.
+
+![dashboard screenshot](https://github.com/user-attachments/assets/b3d30917-88ec-4663-a2bb-6ca1387f8602)
+
+## INSIGHTS
+
+
 
 
 
