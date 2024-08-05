@@ -127,6 +127,16 @@ The dashboard provides a comprehensive overview of pizza sales performance, feat
 
 ## INSIGHTS
 
+•  Peak Sales Days and Times: Thursdays, Fridays, and Saturdays generate the highest sales, accounting for nearly half of weekly revenue. Sales are significantly lower on Sundays and Tuesdays. The busiest periods are lunchtime              (12:00 PM to 1:00 PM) and dinnertime (4:00 PM to 7:00 PM).
+
+•  Seasonal Sales: Sales peak during the second quarter, with July being the strongest sales month.
+
+•  Pizza Size Preferences: Large pizzas are the most popular, followed by medium and small sizes, respectively.
+
+•  Pizza Category Performance: All pizza categories have similar market shares, with Classic being slightly ahead.
+
+•  Pizza Product Performance: Thai Chicken Pizza is the top seller, while Classic Deluxe Pizza is the most ordered and Brie Carre Pizza is the least popular.
+
 
 
 
