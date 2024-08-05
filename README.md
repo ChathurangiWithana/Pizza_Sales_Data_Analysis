@@ -104,6 +104,8 @@ Data Transformation: Pizza Size
 
       XXL >> XX-Large
 
+#### Check out the [SQL Queries for Pizza Sales Data](https://github.com/ChathurangiWithana/Pizza_Sales_Data_Analysis/blob/main/SQL%20Queries%20for%20Pizza%20Sales%20Data)
+
 ## BUILDING THE DASHBOARD 
 
 The dashboard provides a comprehensive overview of pizza sales performance, featuring key performance indicators such as total revenue, orders, average order value, and pizzas sold. It also includes visualizations of busiest days and times, sales trends, best-selling and worst-selling pizzas. This holistic approach empowers stakeholders with actionable insights to optimize operations, inform product strategies, and drive sales growth.
