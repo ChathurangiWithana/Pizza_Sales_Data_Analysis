@@ -1,32 +1,26 @@
 Pizza Sales SQL Queries
 KPI’s
-1.	Total Revenue
 
+1.	Total Revenue
 SELECT SUM(total_price) AS Total_Revenue from pizza_sales
 
 2.	Average Order Value
-
 select sum(total_price) / count (distinct order_id) as Avg_Order_Value from pizza_sales
 
 3.	Total Pizza Sold
-
 SELECT SUM(quantity) AS Total_Pizza_Sold from pizza_sales
 
-
 4.	Total Orders
-
 SELECT COUNT(DISTINCT order_id) AS Total_Orders from pizza_sales
 
-
 5.	Average Pizzas per Order
-
 SELECT CAST(CAST(SUM(quantity) AS DECIMAL(10,2)) / CAST(COUNT(DISTINCT order_id) AS DECIMAL(10,2)) AS DECIMAL(10,2)) AS Avg_Pizzas_per_Order from pizza_sales
 
 
 
 Charts Requirements
-1.	Daily Trend
 
+1.	Daily Trend
 -- Daily Trends
 SELECT DATENAME(DW, order_date) AS order_day, COUNT(DISTINCT order_id) AS Total_Orders 
 FROM pizza_sales 
@@ -34,7 +28,6 @@ GROUP BY DATENAME(DW, order_date)
 
 
 2.	Hourly Trend
-
 SELECT DATEPART(HOUR, order_time) AS order_hours, COUNT(DISTINCT order_id) AS Total_Orders 
 FROM pizza_sales 
 GROUP BY DATEPART(HOUR, order_time)
@@ -49,7 +42,6 @@ GROUP BY pizza_category
 
 
 4.	Percentage of Sales by Pizza Size
-
 --percentage of sales by pizza SIZE 
 SELECT pizza_size, SUM (total_price) AS Total_Sales, SUM (total_price) * 100/ 
 (SELECT SUM(total_price) from pizza_sales) AS Percentage_of_Total_Revenue
@@ -66,14 +58,12 @@ ORDER BY Percentage_of_Total_Revenue DESC
 
 
 5.	Total Pizza sold by Pizza Category
-
 SELECT pizza_category, sum (quantity) AS Total_Pizza_Sold
 from pizza_sales
 GROUP BY pizza_category
 
 
 6.	Top 5 Best Sellers by Total Pizzas Sold
-
 SELECT TOP 5 pizza_name, SUM (quantity) AS Total_Pizzas_Sold
 FROM pizza_sales
 GROUP BY pizza_name
@@ -81,7 +71,6 @@ ORDER BY SUM (quantity) DESC
 
 
 7.	Bottom 5 Worst sellers by Total Pizzas Sold
-
 SELECT TOP 5 pizza_name, SUM (quantity) AS Total_Pizzas_Sold
 FROM pizza_sales
 GROUP BY pizza_name
