@@ -104,7 +104,20 @@ Data Transformation: Pizza Size
 
       XXL >> XX-Large
 
+
+## Categorizing MySQL Queries 
+
+
+To gain comprehensive insights into pizza sales, we'll divide our MySQL queries into three primary areas:
+
+     Performance Measurement: Assess overall sales health through key performance indicators (KPIs).
+     
+     Sales Trend Analysis: Identify patterns and fluctuations in pizza sales over time.
+     
+     Product Performance Analysis: Determine the popularity and customer demand for different pizza products.
+
 #### Check out the [SQL Queries for Pizza Sales Data](https://github.com/ChathurangiWithana/Pizza_Sales_Data_Analysis/blob/main/SQL%20Queries%20for%20Pizza%20Sales%20Data)
+
 
 ## BUILDING THE DASHBOARD 
 
